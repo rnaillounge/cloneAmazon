@@ -11,7 +11,7 @@
     color: white;
     display: flex;
     align-items: center;
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
 
 }
 
@@ -166,5 +166,18 @@
     font-weight: 700;
 }
 
-/** Box 5 ** /
+/** Nav Box 5 **/
+
+.nav-orders {
+    padding: 8px;
+}
+
+.nav-orders-p1 {
+    font-size: .70rem;
+}
+
+.nav-orders-p2 {
+    font-size: .85rem;
+    font-weight: 700;
+}
 
