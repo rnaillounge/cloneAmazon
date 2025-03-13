@@ -202,3 +202,11 @@
     position: static;
     
 }
+
+/** Header Second Started **/
+
+.header-panel {
+    background-color: #232f3e;
+    height: 40px;
+    
+}
