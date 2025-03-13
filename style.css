@@ -19,9 +19,12 @@
 
 .nav-logo {
     height: 50px;
-    width: 240px;
+    display: flex;
+    width: auto;
+    min-width: 140px;
     justify-content: center;
     align-items: center;
+    
 }
 
 .logo {
@@ -48,6 +51,7 @@
     width: 150px;
     justify-items: center;
     padding: 8px 0px 8px 0px;
+    white-space: nowrap;
     /* padding-right: 20px; */
 
 }
@@ -81,6 +85,7 @@
     display: flex;
     height: 40px;
     width: 100%;
+    min-width: 440px;
     margin-left: 10px;
     border: 2px solid transparent;
     justify-content: space-evenly;
@@ -154,6 +159,7 @@
     margin-left: 20px;
     padding: 8px;
     width: 200px;
+    white-space: nowrap;
 }
 
 .nav-account-p1 {
@@ -170,6 +176,7 @@
 .nav-orders {
     padding: 8px;
     width: 130px;
+    white-space: nowrap;
 }
 
 .nav-orders-p1 {
