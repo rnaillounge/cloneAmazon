@@ -93,12 +93,12 @@
 }
 
 .nav-search:hover, .nav-search:focus {
-    border: 2px solid #ff9900;
+    border: 2.5px solid #ff9900;
     border-radius: 6px;
 }
 
 .nav-search:focus-within {
-    border: 2px solid #ff9900;
+    border: 2.5px solid #ff9900;
     border-radius: 6px;
 }
 
@@ -263,6 +263,7 @@
 /* Slider Section Started */
 
 .hero-section {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -270,8 +271,10 @@
 
 .banner {
     object-fit: cover;
+    object-position: top;
     width: 100vw;
-    height: 100%;
+    height: 550px;
+    overflow: hidden;
     
 }
 
@@ -285,7 +288,56 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    white-space: nowrap;
 }
+
+.slider-patch a {
+    color: #2162a1;
+    outline: 5px;
+}
+
+.hero-box-container {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 96%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3%;
+
+}
+
+.hero-box {
+    width: 23%;
+    height: 220px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border: 2px solid black;
+    
+}
+
+/** Body Boxes **/
+
+.body-box {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 50px;
+    /* align-items: center; */
+}
+
+.box {
+    height: 220px;
+    width: 23%;
+    border: 2px solid black;
+    background-color: white;
+}
+
 
 
 
