@@ -1,5 +1,5 @@
 * {
-    margin: 0px;
+    margin: 0;
     font-family: Arial;
     box-sizing: border-box;
     
@@ -29,8 +29,8 @@
 
 .logo {
     background-image: url("amazon_logo.png");
-    height: 50px;
-    width: 100%;
+    height: 40px;
+    width: 120px;
     background-size: cover;
 
 }
@@ -267,6 +267,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* height: 550px; */
 }
 
 .banner {
@@ -298,19 +299,20 @@
 
 .hero-box-container {
     position: absolute;
-    bottom: 0;
+    bottom: -35%;
     left: 50%;
     transform: translateX(-50%);
-    width: 96%;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
-    gap: 3%;
+    
+    /* gap: 3%; */
 
 }
 
 .hero-box {
     width: 23%;
-    height: 220px;
+    height: 385px;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -324,18 +326,27 @@
 
 .body-box {
     display: flex;
-    justify-content: space-between;
-    padding-left: 25px;
-    padding-right: 25px;
-    margin-top: 50px;
+    justify-content: space-evenly;
+    /* padding-left: 25px;
+    padding-right: 25px; */
+    
     /* align-items: center; */
+    padding-top: 20px;
+    padding-bottom: 6px;
+    /* bottom: -37%; */
 }
 
+.body-box-top {
+    margin-top: 200px;
+}
+
+
 .box {
-    height: 220px;
+    height: 385px;
     width: 23%;
     border: 2px solid black;
     background-color: white;
+    
 }
 
 
