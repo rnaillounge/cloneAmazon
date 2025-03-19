@@ -361,6 +361,10 @@
 .footer-back-to-top {
     height: 50px;
     background-color: #37475a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
