@@ -314,13 +314,66 @@
     width: 23%;
     height: 385px;
     background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;  */
     color: black;
     border: 2px solid black;
+    padding: 15px;
     
 }
+
+.hero-box-short-image {
+    height: 50px;
+    width: 50px;
+
+}
+
+.hero-box-inner1 {
+    width: auto;
+    height: 50px;
+    justify-content: center;
+}
+
+.hero-box-inner1 h3 {
+    font-size: 1.3rem;
+
+}
+
+.hero-box-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    text-align: center;
+}
+
+.hero-box-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.hero-box-item img {
+    width: 120px; /* Adjust the size */
+    height: auto;
+}
+
+.hero-box-item p {
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+.see-more {
+    display: block;
+    text-decoration: none;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 0.9rem;
+}
+
 
 /** Body Boxes **/
 
