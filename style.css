@@ -466,6 +466,12 @@ body {
 
 }
 
+.footer-back-to-top a {
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
 .footer-menu {
     height: 370px;
     background-color: #232f3e;
