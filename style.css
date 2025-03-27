@@ -12,6 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding: 0px 10px 0 10px;
 
 }
 
@@ -227,6 +228,7 @@ body {
     color: white;
     font-size: 0.8rem;
     white-space: nowrap;
+    padding: 0px 10px 0 10px;
 
 }
 
