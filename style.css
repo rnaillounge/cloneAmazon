@@ -369,10 +369,9 @@ body {
 
 .hero-box-item img {
     width: 120px; /* Adjust the size */
-    height: 100px;
+    height: 100px; 
     object-fit: cover;
     
-
 }
 
 .hero-box-item p {
@@ -414,27 +413,38 @@ body {
 .body-box {
     display: flex;
     justify-content: space-evenly;
-    /* padding-left: 25px;
-    padding-right: 25px; */
-    
-    /* align-items: center; */
     padding-top: 20px;
     padding-bottom: 6px;
-    /* bottom: -37%; */
+}
+
+.body-box img {
+    margin-top: 18px;
+    /* padding-top: 20px; */
+}
+
+.body-box h3 {
+    font-size: 21px;
+}
+
+.body-box a {
+    color: #3771aa;
+    padding-left: 2px;
+    margin-top: 5px;
 }
 
 .body-box-top {
     margin-top: 200px;
 }
 
-
 .box {
     height: 385px;
     width: 23%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     background-color: white;
+    padding: 15px;
     
 }
+
 
 /** Footer Panel Started */
 
