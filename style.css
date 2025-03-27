@@ -510,8 +510,12 @@ body {
     color: #dadcdd;
     font-size: 14px;
     text-decoration: none;
-    
 
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+    
 }
 
 .footer-menu {
@@ -520,8 +524,17 @@ body {
 }
 
 .footer-copyright {
-    height: 80px;
+    height: 50px;
     background-color: #131a22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.copyright {
+    color: white;
+    font-size: 14px;
 
 }
 
